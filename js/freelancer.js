@@ -42,3 +42,7 @@
     });
 
 })(jQuery); // End of use strict
+
+function myFunctionC() { 
+	document.getElementById("snackbar").style.display="none"; 
+}
