@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+
+}
+
+.left-sidenav {
+    width: 20%;
+    height: 100%;
+    background-color: #222629;
+    float: left;
+    padding-top: 3%;
+    position: fixed;
+}
+
+.left-sidenav .name {
+    color: #FFF;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.left-sidenav .title {
+    color: #FFF;
+    font-size: large;
+}
+
+.content {
+    width: 100%;
+    margin-left: 20%;
+    padding: 0 0 0 2%;
+    background-color: #EEE;
+}
+
+.left-navbar {
+    width: 100%;
+    text-align: left;
+}
+
+.left-navbar li .nav {
+    padding: 8% 0 8% 12%;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
