@@ -3,10 +3,6 @@ html, body {
     margin: 0;
 }
 
-body {
-
-}
-
 .left-sidenav {
     width: 20%;
     height: 100%;
@@ -14,6 +10,11 @@ body {
     float: left;
     padding-top: 3%;
     position: fixed;
+}
+
+.left-sidenav .image {
+    width: 70%;
+    height: 27.5%;
 }
 
 .left-sidenav .name {
@@ -27,23 +28,26 @@ body {
     font-size: large;
 }
 
-.content {
-    width: 100%;
-    margin-left: 20%;
-    padding: 0 0 0 2%;
-    background-color: #EEE;
-}
+/*.left-navbar {*/
+    /*width: 100%;*/
+    /*text-align: left;*/
+/*}*/
 
-.left-navbar {
-    width: 100%;
-    text-align: left;
-}
+/*.left-navbar li .nav {*/
+    /*padding: 8% 0 8% 12%;*/
+    /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*text-transform: uppercase;*/
+    /*font-weight: 700;*/
+    /*border: none;*/
+/*}*/
 
-.left-navbar li .nav {
-    padding: 8% 0 8% 12%;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    border: none;
-}
+/*.left-navbar .media {*/
+    /*bottom: 0;*/
+/*}*/
 
+/*.content {*/
+    /*width: 100%;*/
+    /*margin-left: 20%;*/
+    /*padding: 0 0 0 2%;*/
+    /*background-color: #EEE;*/
+/*}*/
