@@ -4,6 +4,7 @@ html, body {
 }
 
 .left-sidenav {
+    left: 3%;
     width: 20%;
     height: 100%;
     float: left;
@@ -52,7 +53,7 @@ html, body {
 .content {
     height: 100%;
     width: 100%;
-    margin-left: 20%;
+    margin-left: 22%;
     padding: 0 0 0 2%;
     background-color: #EEE;
 }
@@ -62,7 +63,7 @@ html, body {
         display: none;
     }
     .menu-icon {
-        margin-left: 0;
+        margin-left: 1%;
     }
     .content{
         margin: auto;
@@ -72,13 +73,12 @@ html, body {
 
 /*Menu Icon Start*/
 .menu-icon {
-    margin-left: 20%;
     display: inline-block;
     cursor: pointer;
     float: left;
     background-color: #222629;
     height: 100%;
-    padding: 0.5% 0.5% 0 0;
+    padding: 0.5% 0.5% 0 0.5%;
 }
 
 .bar1, .bar2, .bar3 {
