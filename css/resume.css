@@ -4,12 +4,16 @@ html, body {
     background-color: #EEE;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
 .left-sidenav {
     left: 52px;
     width: 20%;
     height: 100%;
     float: left;
-    position: absolute;
+    position: fixed;
     background-color: #222629;
 }
 
@@ -53,9 +57,9 @@ html, body {
 
 .content {
     height: 100%;
-    width: 100%;
+    width: 78%;
     margin-left: 22%;
-    padding: 0 0 0 2%;
+    padding: 2% 2% 2% 2%;
     background-color: #EEE;
 }
 
@@ -102,6 +106,7 @@ html, body {
     height: 100%;
     width: 52px;
     padding: 0.5% 0.5% 0 0.5%;
+    position: fixed;
 }
 
 .bar1, .bar2, .bar3 {
