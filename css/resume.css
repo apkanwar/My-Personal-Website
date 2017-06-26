@@ -6,43 +6,47 @@ html, body {
 .left-sidenav {
     width: 20%;
     height: 100%;
-    background-color: #222629;
     float: left;
-    padding-top: 3%;
-    position: fixed;
+    position: absolute;
+    background-color: #222629;
 }
 
-.left-sidenav .image {
+.sidebarInner{
+    background-color: #222629;
+    display:inline-block;
+    width: 100%;
+    max-width: 36.5rem;
+    vertical-align: top;
+    padding-top: 2rem;
+}
+
+.sidebarInner .image {
     width: 70%;
     height: 28%;
 }
 
-.left-sidenav .name {
+.sidebarInner .name {
     color: #FFF;
     font-weight: bold;
     font-size: x-large;
 }
 
-.left-sidenav .title {
+.sidebarInner .title {
     color: #FFF;
     font-size: large;
 }
 
-.left-navbar {
+.sidebarInner .left-navbar {
     width: 100%;
     text-align: left;
 }
 
-.left-navbar li .nav {
+.sidebarInner .left-navbar li .nav {
     padding: 8% 0 8% 12%;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border: none;
-}
-
-.left-navbar .media {
-    bottom: 0;
 }
 
 .content {
@@ -53,29 +57,63 @@ html, body {
     background-color: #EEE;
 }
 
+@media screen and (max-width: 1280px) {
+    .left-sidenav{
+        display: none;
+    }
+    .menu-icon {
+        margin-left: 0;
+    }
+    .content{
+        margin: auto;
+        float: none;
+    }
+}
+
 /*Menu Icon Start*/
 .menu-icon {
+    margin-left: 20%;
     display: inline-block;
     cursor: pointer;
+    float: left;
+    background-color: #222629;
+    height: 100%;
+    padding: 0.5% 0.5% 0 0;
 }
 
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
 
-.change .bar1 {
+.bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-.change .bar2 {opacity: 0;}
+.bar2 {
+    opacity: 0;
+}
 
-.change .bar3 {
+.bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(0deg) translate(0px, 0px) ;
+    transform: rotate(0deg) translate(0px, 0px) ;
+}
+
+.change .bar2 {
+    opacity: 1;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(0deg) translate(0px, 0px) ;
+    transform: rotate(0deg) translate(0px, 0px) ;
 }
 /*Menu Icon End*/

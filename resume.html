@@ -35,33 +35,52 @@
 </head>
 <body>
 
-    <div class="left-sidenav text-center">
-        <img class="image img-responsive img-centered" src="img/profile.png" alt="Atinderpaul Kanwar">
-        <h2 class="name">Atinderpaul Kanwar</h2>
-        <h3 class="title">Software Developer</h3>
+    <div id="left-sidebar" class="left-sidenav text-center">
+        <div class="sidebarInner">
+            <img class="image img-responsive img-centered" src="img/profile.png" alt="Atinderpaul Kanwar">
+            <h2 class="name">Atinderpaul Kanwar</h2>
+            <h3 class="title">Software Developer</h3>
 
-        <div style="padding-top: 12%">
-            <ul class="nav left-navbar">
-                <li><a href="#page-top" class="nav">Objectives</a></li>
-                <li><a href="#" class="nav">Work Experience</a></li>
-                <li><a href="#" class="nav">Education</a></li>
-                <li><a class="nav">Awards</a></li>
-            </ul>
+            <div style="padding-top: 12%">
+                <ul class="nav left-navbar">
+                    <li><a href="#" class="nav">Objectives</a></li>
+                    <li><a href="#" class="nav">Work Experience</a></li>
+                    <li><a href="#" class="nav">Education</a></li>
+                    <li><a class="nav">Awards</a></li>
+                </ul>
+            </div>
         </div>
-
     </div>
 
-    <div class="content" id="page-top">
-        <!--<div class="menu-icon" onclick="myFunction(this)">-->
-            <!--<div class="bar1"></div>-->
-            <!--<div class="bar2"></div>-->
-            <!--<div class="bar3"></div>-->
-        <!--</div>-->
+    <div id="menu-icon" class="menu-icon" onclick="menuAnimation(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+    <div class="content" id="resume-content">
+
     </div>
 
     <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
+        var a = parseInt("0");
+        function menuAnimation(x) {
+            if (a === parseInt("0")) {
+                x.classList.toggle("change");
+                document.getElementById("left-sidebar").style.marginLeft = "-20%";
+                document.getElementById("menu-icon").style.marginLeft = "0";
+                document.getElementById("menu-icon").style.paddingLeft = "0.5%";
+                document.getElementById("resume-content").style.marginLeft = "1%";
+                a = parseInt("1");
+            }
+            else {
+                a = parseInt("0");
+                x.classList.toggle("change");
+                document.getElementById("left-sidebar").style.marginLeft = "0";
+                document.getElementById("menu-icon").style.marginLeft = "20%";
+                document.getElementById("menu-icon").style.paddingLeft = "0";
+                document.getElementById("resume-content").style.marginLeft = "20%";
+            }
         }
     </script>
 
