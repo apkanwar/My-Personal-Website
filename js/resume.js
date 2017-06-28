@@ -41,7 +41,7 @@ $('a[href*="#"]')
                 event.preventDefault();
                 $('html, body').animate({
                     scrollTop: target.offset().top
-                }, 1000, function() {
+                }, 750, function() {
                     // Callback after animation
                     // Must change focus!
                     var $target = $(target);
@@ -51,7 +51,7 @@ $('a[href*="#"]')
                     } else {
                         $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
                         $target.focus(); // Set focus again
-                    };
+                    }
                 });
             }
         }
