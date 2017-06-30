@@ -20,6 +20,12 @@ function menuAnimation(x) {
     }
 }
 
+function colorHover(color) {
+    document.getElementById('bar1').style.backgroundColor = color;
+    document.getElementById('bar2').style.backgroundColor = color;
+    document.getElementById('bar3').style.backgroundColor = color;
+}
+
 // Select all links with hashes
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
