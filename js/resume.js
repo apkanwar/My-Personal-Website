@@ -26,6 +26,16 @@ function colorHover(color) {
     document.getElementById('bar3').style.backgroundColor = color;
 }
 
+function onBackHover()
+{
+    $("#back-pic").attr('src', 'img/back-dark.png');
+}
+
+function offBackHover()
+{
+    $("#back-pic").attr('src', 'img/back.png');
+}
+
 // Select all links with hashes
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
