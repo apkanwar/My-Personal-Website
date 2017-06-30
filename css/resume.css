@@ -75,11 +75,30 @@ hr {
     padding: 30px 30px 30px 50px;
 }
 
+.resume-header {
+    width: 100%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: white;
+}
+
+.resume-header h1 {
+    margin: 0 0 0 20px;
+    padding-top: 20px;
+}
+
+.resume-header hr {
+    opacity: 1;
+    margin: 0;
+}
+
 .resume-body {
     width: 100%;
     background-color: white;
-    padding: 30px 30px 30px 50px;
-    border-radius: 25px;
+    padding: 10px 30px 30px 50px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1280px) {
