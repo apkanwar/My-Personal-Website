@@ -38,11 +38,12 @@
 <body>
 
     <div class="icon-holder text-center">
-        <div id="menu-icon" class="menu-icon" onclick="menuAnimation(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <div  id="menu-icon" onmouseover="colorHover('#222629')" onmouseout="colorHover('white')" class="menu-icon" onclick="menuAnimation(this) ">
+            <div id="bar1" class="bar1"></div>
+            <div id="bar2" class="bar2"></div>
+            <div id="bar3" class="bar3"></div>
         </div>
+        <div style="height: 87%; background-color: #222629"></div>
         <a href="index.html"><img src="img/back.png"></a>
     </div>
 
@@ -67,8 +68,13 @@
 
     <div class="content" id="resume-content">
         <div class="resume-header">
-            <h1>My Resume</h1>
-            <br><hr id="objectives">
+            <br>
+            <h1 style="float: left">My Resume</h1>
+            <h4 style="color: #18bc9c;">June 30, 2017</h4>
+            <h4 style="padding-right: 4px;">Last Updated:</h4>
+            <hr style="opacity: 0">
+            <br><br><br>
+            <hr id="objectives">
         </div>
         <div class="resume-body">
             <div>
@@ -179,38 +185,38 @@
                 <h4>Programming Skills</h4>
                 <div class="back">
                     <div class="skillbar clearfix " data-percent="85%">
-                        <div class="skillbar-title" style="background: #d30016;"><span>Android</span></div>
-                        <div class="skillbar-bar" style="background: #e62228;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Android</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">85%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="75%">
-                        <div class="skillbar-title" style="background: #63c900;"><span>Python</span></div>
-                        <div class="skillbar-bar" style="background: #6fe300;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Python</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">75%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="80%">
-                        <div class="skillbar-title" style="background: #124e8c;"><span>CSS 4</span></div>
-                        <div class="skillbar-bar" style="background: #4288d0;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>CSS 4</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">80%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="80%">
-                        <div class="skillbar-title" style="background: #46465e;"><span>Java</span></div>
-                        <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Java</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">80%</div>
                     </div>
 
                     <div style="margin-top: 25px" class="skillbar clearfix " data-percent="90%">
-                        <div class="skillbar-title" style="background: #d35400;"><span>HTML 5</span></div>
-                        <div class="skillbar-bar" style="background: #e67e22;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>HTML 5</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">90%</div>
                     </div>
 
                     <div style="margin-bottom: 15px" class="skillbar clearfix " data-percent="60%">
-                        <div class="skillbar-title" style="background: #333333;"><span>C++</span></div>
-                        <div class="skillbar-bar" style="background: #525252;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>C++</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">60%</div>
                     </div>
                 </div>
@@ -218,32 +224,32 @@
                 <h4>Personal Skills</h4>
                 <div class="back">
                     <div style="margin-top: 25px" class="skillbar clearfix " data-percent="75%">
-                        <div class="skillbar-title" style="background: #d35400;"><span>Communication</span></div>
-                        <div class="skillbar-bar" style="background: #e67e22;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Communication</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">75%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="95%">
-                        <div class="skillbar-title" style="background: #d30016;"><span>Teamwork</span></div>
-                        <div class="skillbar-bar" style="background: #e62228;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Teamwork</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">95%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="75%">
-                        <div class="skillbar-title" style="background: #124e8c;"><span>Creativity</span></div>
-                        <div class="skillbar-bar" style="background: #4288d0;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Creativity</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">75%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="70%">
-                        <div class="skillbar-title" style="background: #46465e;"><span>Leadership</span></div>
-                        <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Leadership</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">70%</div>
                     </div>
 
                     <div class="skillbar clearfix " data-percent="85%">
-                        <div class="skillbar-title" style="background: #63c900;"><span>Management</span></div>
-                        <div class="skillbar-bar" style="background: #6fe300;"></div>
+                        <div class="skillbar-title" style="background: #1b9981;"><span>Management</span></div>
+                        <div class="skillbar-bar" style="background: #18bc9c;"></div>
                         <div class="skill-bar-percent">85%</div>
                     </div>
                 </div>
