@@ -171,14 +171,13 @@ hr {
     width: 52px;
     padding: 4px 0.2%;
     margin: 6px 0.3%;
+    border-radius: 25px;
 }
 
 .menu-icon:hover {
-    background-color: white;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    border-radius: 25px;
-    opacity: 0.6;
+    transition: all 0.5s ease;
+    background: white left bottom;
+    opacity:  0.8;
 }
 
 .bar1, .bar2, .bar3 {

@@ -5,17 +5,17 @@
 var a = parseInt("0");
 function menuAnimation(x) {
     if (a === parseInt("0")) {
-//                x.classList.toggle("change");
+        // x.classList.toggle("change");
         document.getElementById("left-sidebar").style.display = "none";
-        document.getElementById("resume-content").style.marginLeft = "2%";
+        document.getElementById("resume-content").style.marginLeft = "2.5%";
         document.getElementById("resume-content").style.width = "98%";
         a = parseInt("1");
     }
     else {
         a = parseInt("0");
-//                x.classList.toggle("change");
+        // x.classList.toggle("change");
         document.getElementById("left-sidebar").style.display = "block";
-        document.getElementById("resume-content").style.marginLeft = "22%";
+        document.getElementById("resume-content").style.marginLeft = "22.5%";
         document.getElementById("resume-content").style.width = "78%";
     }
 }
