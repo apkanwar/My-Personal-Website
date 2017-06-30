@@ -73,6 +73,11 @@ hr {
     margin-left: 22%;
     background-color: #EEE;
     padding: 30px 30px 30px 50px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .resume-header {
@@ -85,6 +90,11 @@ hr {
 .resume-header h1 {
     margin: 0 0 0 20px;
     padding-top: 20px;
+}
+
+.resume-header h4 {
+    padding: 30px 20px 0 0;
+    float: right;
 }
 
 .resume-header hr {
@@ -157,9 +167,15 @@ hr {
     display: inline-block;
     cursor: pointer;
     background-color: #222629;
-    height: 93%;
+    height: 5%;
     width: 52px;
     padding: 9px 0.5% 0;
+}
+
+.menu-icon:hover {
+    background-color: white;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
 }
 
 .bar1, .bar2, .bar3 {
