@@ -15,7 +15,7 @@ hr {
 }
 
 .left-sidenav {
-    left: 52px;
+    left: 64px;
     width: 20%;
     height: 100%;
     float: left;
@@ -70,7 +70,7 @@ hr {
 .content {
     height: 100%;
     width: 78%;
-    margin-left: 22%;
+    margin-left: 22.5%;
     background-color: #EEE;
     padding: 30px 30px 30px 50px;
     user-select: none;
@@ -147,7 +147,7 @@ hr {
 
 .icon-holder {
     height: 100%;
-    width: 52px;
+    width: 64px;
     float: left;
     position: fixed;
     background-color: #222629;
@@ -169,13 +169,16 @@ hr {
     background-color: #222629;
     height: 5%;
     width: 52px;
-    padding: 9px 0.5% 0;
+    padding: 4px 0.2%;
+    margin: 6px 0.3%;
 }
 
 .menu-icon:hover {
     background-color: white;
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
+    border-radius: 25px;
+    opacity: 0.6;
 }
 
 .bar1, .bar2, .bar3 {
