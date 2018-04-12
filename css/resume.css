@@ -114,6 +114,7 @@ hr {
 @media screen and (max-width: 1280px) {
     .left-sidenav{
         display: none;
+        visibility: visible;
         width: 40%;
         height: auto;
     }
@@ -124,6 +125,7 @@ hr {
 }
 @media screen and (max-width: 700px) {
     .left-sidenav{
+        visibility: hidden;
         display: none;
         width: 100%;
     }
@@ -135,6 +137,7 @@ hr {
 @media screen and (max-width: 450px) {
     .left-sidenav{
         display: none;
+        visibility: hidden;
         width: 100%;
         text-align: left;
         child-align: left;
